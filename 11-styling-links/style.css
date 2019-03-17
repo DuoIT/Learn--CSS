@@ -1,0 +1,34 @@
+/*States
+a:link
+a:visited // doi mau khi link da duoc click
+a:hover // dung nhieu
+a:active //tro chuot len nhung chua click*/
+.default-link:link{
+	color: #2000ff;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.default-link:visited{
+	
+}
+
+.default-link:hover{
+	text-decoration: underline;
+}
+
+.default-link:active{
+	color: red;
+}
+
+.button-link{
+	background: yellow;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	padding: 9px 23px;
+}
+.button-link:hover{
+	background: #abab2c;
+}

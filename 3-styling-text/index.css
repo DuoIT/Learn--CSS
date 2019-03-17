@@ -1,0 +1,28 @@
+h1{
+	text-decoration: underline;
+	/*them gach chan*/ 
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	/*huy bo gach chan cua duong link*/
+	color: #333333;
+}
+.duong{
+	text-transform: uppercase;
+	/*viet hoa tat ca cac chu cai*/
+}
+.thuy{
+	text-transform: lowercase;
+	/*viet thuong cac chu cai*/
+}
+.nguyen{
+	text-transform: capitalize;
+	/*viet hoa chu cai dau*/
+}
+.thi{
+	text-indent: 10px;
+	/*lui vao dau dong 1 tab*/
+	line-height: 1;
+	/*khoang cach giua cac dong*/
+}

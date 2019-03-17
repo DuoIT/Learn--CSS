@@ -1,0 +1,19 @@
+.container{
+	display: flex;
+}
+
+
+
+.box-red{
+	background-color: red;
+	
+}
+
+.blue{
+	background-color: blue;
+	position: relative;
+}
+
+.green{
+	background-color: green;
+}

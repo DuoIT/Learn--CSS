@@ -1,0 +1,32 @@
+body{
+	margin :0;
+}
+
+.container{
+	background-color: #DDD;
+	display: flex;
+	flex-direction: row;
+	/*justify-content: center;
+	height: 250px;
+	align-items: center;*/
+}
+
+/*.child-1{
+	background-color: red;
+	flex-basis: 100px;
+	/*flex-grow: 1;
+	flex-shrink: 0;
+}
+*/
+.child-2{
+	background-color: blue;
+	flex-basis: 100px;
+	flex-grow: 1;
+	order: 1;
+}
+
+.child-3{
+	background-color: yellow;
+	flex-basis: 200px;
+	flex-grow: 1;
+}

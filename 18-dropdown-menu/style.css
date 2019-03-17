@@ -1,0 +1,40 @@
+body{
+	font-family: sans-serif;
+
+}
+.menu{
+	display: flex;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li{
+	padding: 8px 16px;
+	
+}
+
+.menu li:hover{
+	background-color: yellow;
+	
+}
+
+.head{
+	position: relative;
+}
+
+.head:hover .submenu{
+	display: block;
+}
+
+
+.submenu {
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 100%
+	background-color:yellow;
+}
+
+

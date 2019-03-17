@@ -1,0 +1,25 @@
+.album-square{
+	width: 128px;
+	height: 128px;
+	background-color: #DDD;
+	background-image: url("https://loremflickr.com/128/200");
+	background-size: cover;
+	background-position: center;
+	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+	color: #FFF;
+	font-size: 60px;
+	border-bottom: 1px solid #AAA;
+}
+
+.album-square .overlay{
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+
+.album-square :hover{
+	opacity: 1;
+}

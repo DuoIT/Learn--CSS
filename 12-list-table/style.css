@@ -1,0 +1,68 @@
+ol.du1{
+	background: #ff9999;
+	padding: 20px;
+}
+
+ol.du1 li{
+	background:  #ffe5e5;
+	margin:5px;
+}
+
+ul.ho1{
+	background:  #3399ff;
+	padding: 20px;
+}
+
+ul.ho1 li{
+	background:  #ffe5e5;
+	margin: 5px;
+}
+
+ol.du2{
+	list-style-type: circle;
+	background: yellow;
+	padding: 20px;
+}
+
+ol.du2 li{
+	background: #f33333;
+	margin: 5px;
+}
+
+ol.du3{
+	list-style-type: square;
+	background: green;
+	padding: 20px;
+}
+
+ol.du3 li{
+	background: #c19d54;
+	margin: 5px;
+
+}
+
+ul.ho2{
+	list-style-type: upper-roman;
+	background: #c19d54;
+	padding: 20px;
+}
+
+ul.ho2 li{
+	background: pink;
+	margin: 5px;
+}
+
+ul.ho3{
+	list-style-type: lower-alpha;
+	background: #cb65dc;
+	padding: 20px;
+}
+ul.ho3 li{
+	background: yellow;
+	margin: 5px;
+}
+
+table, th, td{
+	border:1px solid black;
+}
+

@@ -1,0 +1,42 @@
+/*.container{
+	width: 100%;
+	
+	background-color: #AAA;
+	border-bottom: 1px solid #f2f2f2
+
+}*/
+
+.album-cover{
+	width: 128px;
+	height: 128px;
+	background-color: #DDD;
+	background-image: url("https://loremflickr.com/128/200");
+	background-size: cover;
+	background-position: center;
+	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+	color: #FFF;
+	font-size: 20px;
+	border-bottom: 1px solid #AAA;
+
+}
+
+.album-cover .overlay{
+	height: 100%;
+	/*flex-grow: 1;*/
+	display: flex;
+	align-items: flex-end;
+	background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+	box-sizing: border-box;
+	padding: 8px;
+}
+
+/*.album-info{
+	padding:  0 130px 20px;
+
+}
+
+.album-info .name{
+	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+
+}*/

@@ -1,0 +1,18 @@
+p{
+	font-size: 30px;
+}
+
+#intro{
+	text-align: center;
+}
+
+.centre{
+	font-weight: bold;
+	/*to dam*/
+}
+
+h1, p{
+	color: #888;
+	font-family: sans-serif;
+	/*font chu*/
+}

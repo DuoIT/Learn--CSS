@@ -1,0 +1,11 @@
+mycolor{
+	text-align: center;
+	/*canh giua*/
+}
+h1{
+	color: rgb(100,150,70);
+	font-family: sans-serif;
+}
+p{
+	color: rgba(200,140,60,0.5);
+}
